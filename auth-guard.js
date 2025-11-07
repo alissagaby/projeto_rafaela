@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   firebase.auth().onAuthStateChanged(user => {
     if (!user) {
       // Usuário não autenticado → redirecionar
-      const loginUrl = `${location.origin}/projetoGamificaEduk/html/login/login.html`;
+      const loginUrl = `${location.origin}/projeto-rafaela-97742/html/login/login.html`;
       console.warn("Acesso negado: sessão inexistente. Redirecionando para login...");
       window.location.href = loginUrl;
       return;
