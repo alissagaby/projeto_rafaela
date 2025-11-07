@@ -1,3 +1,4 @@
+
 // home.js
 
 /**
@@ -9,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   firebase.auth().onAuthStateChanged(user => {
     if (!user) {
       // Usuário não autenticado → redirecionar para login absoluto
-      window.location.href = `${location.origin}/projeto-rafaela-97742/login.html`;
+      window.location.href = `${location.origin}/projetoGamificaEduk/html/login/login.html`;
       return;
     }
         

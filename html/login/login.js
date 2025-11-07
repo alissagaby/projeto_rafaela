@@ -1,3 +1,5 @@
+
+
 // Redireciona usuário autenticado para a home
 firebase.auth().onAuthStateChanged(user => {
     if (user) {
