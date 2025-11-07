@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   firebase.auth().onAuthStateChanged(user => {
     if (!user) {
       // Usuário não autenticado → redirecionar
-      const loginUrl = `${location.origin}/projeto-rafaela-97742/html/login/login.html`;
+      const loginUrl = `${location.origin}/projeto-rafaela-97742/login.html`;
       console.warn("Acesso negado: sessão inexistente. Redirecionando para login...");
       window.location.href = loginUrl;
       return;
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .catch(error => {
         // Se o erro for perfil não encontrado
         if (error.message === "01 - Não encontrado.") {
-          const profileUpdateUrl = `${location.origin}/projeto-rafaela-97742/html/profile/update-profile.html`;
+          const profileUpdateUrl = `${location.origin}/projeto-rafaela-97742/update-profile.html`;
           alert("Seu perfil precisa ser atualizado e ativado! Acesse o menu perfil.");
           window.location.href = profileUpdateUrl;
         } else {
