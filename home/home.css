@@ -12,7 +12,7 @@
 body, html {
     height: 100%;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));
+    background-image: linear-gradient(rgb(255, 201, 248), rgb(254, 255, 202));
 }
 
 .card-container.card {
@@ -68,19 +68,19 @@ body, html {
 }
 
 .option:hover {
-    color: #004085;
+    color: #3898ff;
     background: #cce5ff;
     border: 1px solid #b8daff;
 }
 
  .option.correct {
-    color: #155724;
+    color: #c0ffb8;
     background: #d4edda;
     border: 1px solid #c3e6cb;
 }
 
 .option.incorrect {
-    color: #721c24;
+    color: #ffb6bd;
     background: #f8d7da;
     border: 1px solid #f5c6cb;
 }
@@ -100,15 +100,15 @@ body, html {
     line-height: 12px;
 }
 .icon.tick {
-    color: #23903c;
-    border-color: #23903c;
+    color: #ceffda;
+    border-color: #cbf8d5;
     background: #d4edda;
 }
 
 .icon.cross {
-    color: #a42834;
+    color: #ede0f3;
     background: #f8d7da;
-    border-color: #a42834;
+    border-color: #ff9ba5;
 }
 
 .choice-prefix {
